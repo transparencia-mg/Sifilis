@@ -19,7 +19,7 @@ Para fins de notificação, são [critérios de definição de caso para sífili
 * Situação 2: toda criança com menos de 13 anos de idade com pelo menos uma das seguintes situações: teste não treponêmico reagente e sinais e sintomas; titulação do VDRL (Venereal Disease Research Laboratory) superior aos da mãe em pelo menos duas diluições; titulação do VDRL superior em pelo menos duas diluições no seguimento da criança exposta; VDRL reagente após 6 meses de idade; TT reagente após 18 meses de idade sem diagnóstico prévio de sífilis congênita; 
 * Situação 3: evidência do _Treponema pallidum_ em amostra nasal ou lesão cutânea, biópsia ou necropsia de criança, aborto ou natimorto.
 
-Os dados foram extraídos do Sinan por meio do tabulador de informações em saúde [Tabnet](http://vigilancia.saude.mg.gov.br/index.php/informacoes-de-saude/informacoes-de-saude-tabnet-mg/), com a seleção dos casos de sífilis adquirida, sífilis em gestante e sífilis congênita no período de 2010 a 2022.
+Os dados foram extraídos do Sinan por meio do tabulador de informações em saúde [Tabnet](http://vigilancia.saude.mg.gov.br/index.php/informacoes-de-saude/informacoes-de-saude-tabnet-mg/), com a seleção dos casos de sífilis adquirida, sífilis em gestante e sífilis congênita no período de 2010 a 2023.
 
 ## ATUALIZAÇÃO DOS DADOS
 
