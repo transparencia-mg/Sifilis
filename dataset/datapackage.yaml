@@ -1,0 +1,128 @@
+name: Sifilis
+owner_org: secretaria-de-estado-de-saude-ses
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: dados_sifilis_adquirida
+    path: data/dados_sifilis_adquirida.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: id_agravo
+          type: string
+        - name: dt_notific
+          type: date
+        - name: nu_ano
+          type: integer
+        - name: id_municip
+          type: string
+        - name: id_regiona
+          type: string
+        - name: dt_nasc
+          type: date
+        - name: nu_idade_n
+          type: geopoint
+        - name: cs_sexo
+          type: string
+        - name: cs_raca
+          type: string
+        - name: cs_escol_n
+          type: string
+        - name: id_mn_resi
+          type: string
+        - name: id_rg_resi
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: dados_sifilis_congenita
+    path: data/dados_sifilis_congenita.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: id_agravo
+          type: string
+        - name: dt_notific
+          type: date
+        - name: nu_ano
+          type: integer
+        - name: id_municip
+          type: string
+        - name: id_regiona
+          type: string
+        - name: dt_diag
+          type: date
+        - name: dt_nasc
+          type: date
+        - name: nu_idade_n
+          type: geopoint
+        - name: cs_sexo
+          type: string
+        - name: cs_raca
+          type: string
+        - name: id_mn_resi
+          type: string
+        - name: id_rg_resi
+          type: string
+        - name: antsifil_n
+          type: string
+        - name: tra_esquem
+          type: string
+        - name: labc_igg
+          type: string
+        - name: evolucao
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: dados_sifilis_gestante
+    path: data/dados_sifilis_gestante.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: id_agravo
+          type: string
+        - name: dt_notific
+          type: date
+        - name: nu_ano
+          type: integer
+        - name: id_municip
+          type: string
+        - name: id_regiona
+          type: string
+        - name: dt_diag
+          type: date
+        - name: dt_nasc
+          type: date
+        - name: nu_idade_n
+          type: geopoint
+        - name: cs_raca
+          type: string
+        - name: cs_escol_n
+          type: string
+        - name: id_mn_resi
+          type: string
+        - name: id_rg_resi
+          type: string
+        - name: tpesquema
+          type: string
+        - name: tratparc
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Sifilis
