@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 11.124,
+  "time": 11.102,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "O banco de dados de sífilis contempla o registro de casos de sífilis adquirida, em gestantes e congênita inseridos no Sistema de Informação de Agravos de Notificação (Sinan) que é alimentado pelas unidades de saúde",
+        "description": "Dados de Sífilis adquirida",
         "dialect": {
           "delimiter": ";"
         },
@@ -124,7 +124,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Dados de Sífilis",
+        "title": "Dados de Sífilis adquirida",
         "stats": {
           "hash": "66b5df4fe777e446cc527d884560ab0d",
           "bytes": 13955976,
@@ -132,7 +132,7 @@
           "rows": 140497
         }
       },
-      "time": 6.724,
+      "time": 6.718,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -162,7 +162,7 @@
     },
     {
       "resource": {
-        "description": "Dados de Sífilis adquirida.",
+        "description": "Dados de Sífilis Congênita.",
         "dialect": {
           "delimiter": ";"
         },
@@ -241,7 +241,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Sífilis Gestante.",
         "stats": {
           "hash": "d110ea3e83ad2377e5f3dbee2f73f8dc",
           "bytes": 4114380,
@@ -249,7 +249,7 @@
           "rows": 27610
         }
       },
-      "time": 1.598,
+      "time": 1.584,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -279,7 +279,7 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "description": "Dados de Sífilis Gestante.",
         "dialect": {
           "delimiter": ";"
         },
@@ -358,7 +358,7 @@
           "rows": 49817
         }
       },
-      "time": 2.765,
+      "time": 2.764,
       "scope": [
         "hash-count-error",
         "byte-count-error",
