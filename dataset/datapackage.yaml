@@ -100,24 +100,55 @@ resources:
       fields:
         - name: id_agravo
           type: string
+          title: ID do Agravo
+          description: ID do Agravo
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de Notificação
         - name: nu_ano
           type: integer
+          title: Ano de Notificação
+          description: Ano de Notificação
         - name: id_municip
           type: string
+          title: Município de Notificação
+          description: Município de Notificação
         - name: id_regiona
           type: string
+          title: Regional de Notificação
+          description: Regional de Notificação
         - name: dt_diag
           type: date
         - name: dt_nasc
           type: date
-        - name: nu_idade_n
+          title: Data de Nascimento
+          description: Data de Nascimento
+         - name: nu_idade_n
           type: geopoint
+          title: Idade
+          description: Idade
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints:
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
         - name: id_rg_resi
