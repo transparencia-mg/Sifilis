@@ -123,7 +123,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Dados de Sífilis adquirida"
+      "title": "Dados de Sífilis Adquirida"
     },
     {
       "description": "Dados de Sífilis Congênita.",
@@ -205,7 +205,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Sífilis Gestante."
+      "title": "Dados Sífilis Congênita."
     },
     {
       "description": "Dados de Sífilis Gestante.",
@@ -279,7 +279,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Dados de Sífilis Gestante"
     }
   ],
   "title": "Dados de Sifilis"
