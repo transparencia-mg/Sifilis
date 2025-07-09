@@ -215,7 +215,7 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-         - name: id_agravo
+        - name: id_agravo
           type: string
           title: ID do Agravo
           description: ID do Agravo
