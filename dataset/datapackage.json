@@ -4,7 +4,6 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Dados de Sífilis adquirida",
       "dialect": {
         "delimiter": ";"
       },
@@ -126,7 +125,6 @@
       "title": "Dados de Sífilis Adquirida"
     },
     {
-      "description": "Dados de Sífilis Congênita.",
       "dialect": {
         "delimiter": ";"
       },
@@ -205,10 +203,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Dados Sífilis Congênita."
+      "title": "Dados Sífilis Congênita"
     },
     {
-      "description": "Dados de Sífilis Gestante.",
       "dialect": {
         "delimiter": ";"
       },
@@ -282,5 +279,5 @@
       "title": "Dados de Sífilis Gestante"
     }
   ],
-  "title": "Dados de Sifilis"
+  "title": "Dados de Sífilis"
 }
