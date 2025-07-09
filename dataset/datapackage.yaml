@@ -299,7 +299,7 @@ resources:
         - name: tratparc
           type: string
           title: Verifica se o parceiro foi tratado concomitantemente à gestante
-          description: "Verifica se o parceiro foi tratado concomitantemente à gestante
+          description: Verifica se o parceiro foi tratado concomitantemente à gestante
           constraints:
              enum:
                - 'Sim'
