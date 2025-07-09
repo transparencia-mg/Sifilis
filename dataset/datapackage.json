@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "O banco de dados de sífilis contempla o registro de casos de sífilis adquirida, em gestantes e congênita inseridos no Sistema de Informação de Agravos de Notificação (Sinan) que é alimentado pelas unidades de saúde",
+      "description": "Dados de Sífilis adquirida",
       "dialect": {
         "delimiter": ";"
       },
@@ -123,10 +123,10 @@
         ]
       },
       "scheme": "file",
-      "title": "Dados de Sífilis"
+      "title": "Dados de Sífilis adquirida"
     },
     {
-      "description": "Dados de Sífilis adquirida.",
+      "description": "Dados de Sífilis Congênita.",
       "dialect": {
         "delimiter": ";"
       },
@@ -205,10 +205,10 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Sífilis Gestante."
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "Dados de Sífilis Gestante.",
       "dialect": {
         "delimiter": ";"
       },
@@ -282,5 +282,5 @@
       "title": "Insira um título humanamente legível para este recurso."
     }
   ],
-  "title": "Sifilis"
+  "title": "Dados de Sifilis"
 }
