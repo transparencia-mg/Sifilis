@@ -2,7 +2,7 @@ name: sifilis
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: O banco de dados de sífilis contempla o registro de casos de sífilis adquirida, em gestantes e congênita inseridos no Sistema de Informação de Agravos de Notificação (Sinan) que é alimentado pelas unidades de saúde
+  - description: Dados de Sífilis adquirida
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -88,8 +88,8 @@ resources:
           title: Regional de Residência
           description: Regional de Residência
     scheme: file
-    title: Dados de Sífilis
-  - description: Dados de Sífilis adquirida.
+    title: Dados de Sífilis adquirida
+  - description: Dados de Sífilis Congênita.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -133,8 +133,8 @@ resources:
         - name: evolucao
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
+    title: Sífilis Gestante.
+  - description: Dados de Sífilis Gestante.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -175,4 +175,4 @@ resources:
           type: string
     scheme: file
     title: Insira um título humanamente legível para este recurso.
-title: Sifilis
+title: Dados de Sifilis
