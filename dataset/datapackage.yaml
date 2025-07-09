@@ -120,6 +120,8 @@ resources:
           description: Regional de Notificação
         - name: dt_diag
           type: date
+          title: Data de diagnóstico
+          description: Data de diagnóstico
         - name: dt_nasc
           type: date
           title: Data de Nascimento
@@ -151,9 +153,13 @@ resources:
                - 'Ignorado'
         - name: id_mn_resi
           type: string
-          title: 
-          description: 
+          title: Município de Residência
+          description: Município de Residência
         - name: id_rg_resi
+          type: string
+          title: Regional de Residência
+          description: Regional de Residência
+        - name: antsifil_n
           type: string
           title: Diagnóstico de sífilis
           description: Diagnóstico de sífilis firmado laboratorialmente
@@ -164,10 +170,6 @@ resources:
                - 'Não realizado'
                - 'No momento do parto/curetagem'
                - 'Ignorado'
-        - name: antsifil_n
-          type: string
-          title: 
-          description:
         - name: tra_esquem
           type: string
           title: Esquema terapêutico
