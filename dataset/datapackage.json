@@ -168,7 +168,9 @@
           },
           {
             "name": "dt_diag",
-            "type": "date"
+            "type": "date",
+            "title": "Data de diagnóstico",
+            "description": "Data de diagnóstico"
           },
           {
             "name": "dt_nasc",
@@ -213,27 +215,75 @@
           },
           {
             "name": "id_mn_resi",
-            "type": "string"
+            "type": "string",
+            "title": "Município de Residência",
+            "description": "Município de Residência"
           },
           {
             "name": "id_rg_resi",
-            "type": "string"
+            "type": "string",
+            "title": "Regional de Residência",
+            "description": "Regional de Residência"
           },
           {
             "name": "antsifil_n",
-            "type": "string"
+            "type": "string",
+            "title": "Diagnóstico de sífilis",
+            "description": "Diagnóstico de sífilis firmado laboratorialmente",
+            "constraints": {
+              "enum": [
+                "Após o parto",
+                "Durante o pré-natal",
+                "Não realizado",
+                "No momento do parto/curetagem",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "tra_esquem",
-            "type": "string"
+            "type": "string",
+            "title": "Esquema terapêutico",
+            "description": "Esquema terapêutico",
+            "constraints": {
+              "enum": [
+                "Adequado",
+                "Inadequado",
+                "Não realizado",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "labc_igg",
-            "type": "string"
+            "type": "string",
+            "title": "Resultado do teste",
+            "description": "Resultado do teste treponêmico realizado",
+            "constraints": {
+              "enum": [
+                "Reagente",
+                "Não reagente",
+                "Não realizado",
+                "Não se aplica",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "evolucao",
-            "type": "string"
+            "type": "string",
+            "title": "Evolução",
+            "description": "Evolução do caso de sífilis congênita",
+            "constraints": {
+              "enum": [
+                "Vivo",
+                "Óbito por sífilis congênita",
+                "Óbito por outras causas",
+                "Aborto",
+                "Natimorto",
+                "Ignorado"
+              ]
+            }
           }
         ]
       },
