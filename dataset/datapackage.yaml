@@ -39,8 +39,8 @@ resources:
           description: Data de Nascimento
         - name: nu_idade_n
           type: geopoint
-          title:
-          description:
+          title: Idade
+          description: Idade
         - name: cs_sexo
           type: string
           title: Sexo
