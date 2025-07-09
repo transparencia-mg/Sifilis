@@ -1,11 +1,10 @@
 {
   "version": "4.16.6",
-  "time": 10.803,
+  "time": 11.402,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Dados de Sífilis adquirida",
         "dialect": {
           "delimiter": ";"
         },
@@ -132,7 +131,7 @@
           "rows": 140497
         }
       },
-      "time": 6.504,
+      "time": 6.921,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -162,7 +161,6 @@
     },
     {
       "resource": {
-        "description": "Dados de Sífilis Congênita.",
         "dialect": {
           "delimiter": ";"
         },
@@ -241,7 +239,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Dados Sífilis Congênita.",
+        "title": "Dados Sífilis Congênita",
         "stats": {
           "hash": "d110ea3e83ad2377e5f3dbee2f73f8dc",
           "bytes": 4114380,
@@ -249,7 +247,7 @@
           "rows": 27610
         }
       },
-      "time": 1.559,
+      "time": 1.625,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -279,7 +277,6 @@
     },
     {
       "resource": {
-        "description": "Dados de Sífilis Gestante.",
         "dialect": {
           "delimiter": ";"
         },
@@ -358,7 +355,7 @@
           "rows": 49817
         }
       },
-      "time": 2.702,
+      "time": 2.818,
       "scope": [
         "hash-count-error",
         "byte-count-error",
