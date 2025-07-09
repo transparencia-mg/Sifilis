@@ -151,16 +151,56 @@ resources:
                - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: 
+          description: 
         - name: id_rg_resi
           type: string
+          title: Diagnóstico de sífilis
+          description: Diagnóstico de sífilis firmado laboratorialmente
+          constraints:
+             enum:
+               - 'Após o parto'
+               - 'Durante o pré-natal'
+               - 'Não realizado'
+               - 'No momento do parto/curetagem'
+               - 'Ignorado'
         - name: antsifil_n
           type: string
+          title: 
+          description:
         - name: tra_esquem
           type: string
+          title: Esquema terapêutico
+          description: Esquema terapêutico
+          constraints:
+             enum:
+               - 'Adequado'
+               - 'Inadequado'
+               - 'Não realizado'
+               - 'Ignorado'
         - name: labc_igg
           type: string
+          title: Resultado do teste
+          description: Resultado do teste treponêmico realizado
+          constraints:
+             enum:
+               - 'Reagente'
+               - 'Não reagente'
+               - 'Não realizado'
+               - 'Não se aplica'
+               - 'Ignorado'
         - name: evolucao
           type: string
+          title: Evolução
+          description: Evolução do caso de sífilis congênita
+          constraints:
+             enum:
+               - 'Vivo'
+               - 'Óbito por sífilis congênita'
+               - 'Óbito por outras causas'
+               - 'Aborto'
+               - 'Natimorto'
+               - 'Ignorado'
     scheme: file
     title: Dados Sífilis Congênita
   - dialect:
