@@ -235,11 +235,11 @@ resources:
           type: string
           title: Regional de Notificação
           description: Regional de Notificação
-       - name: dt_diag
+        - name: dt_diag
           type: date
           title: Data de diagnóstico
           description: Data de diagnóstico
-       - name: dt_nasc
+        - name: dt_nasc
           type: date
           title: Data de Nascimento
           description: Data de Nascimento
