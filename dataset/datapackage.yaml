@@ -124,7 +124,7 @@ resources:
           type: date
           title: Data de Nascimento
           description: Data de Nascimento
-         - name: nu_idade_n
+        - name: nu_idade_n
           type: geopoint
           title: Idade
           description: Idade
