@@ -2,8 +2,7 @@ name: sifilis
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: Dados de Sífilis Adquirida
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -89,8 +88,7 @@ resources:
           description: Regional de Residência
     scheme: file
     title: Dados de Sífilis Adquirida
-  - description: Dados de Sífilis Congênita
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -206,8 +204,7 @@ resources:
                - 'Ignorado'
     scheme: file
     title: Dados Sífilis Congênita
-  - description: Dados de Sífilis Gestante
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -309,4 +306,4 @@ resources:
               - 'Ignorado'
     scheme: file
     title: Dados de Sífilis Gestante
-title: Dados de Sifilis
+title: Dados de Sífilis
