@@ -1,20 +1,339 @@
 {
   "version": "4.16.6",
-  "time": 0.036,
-  "errors": [
+  "time": 10.605,
+  "errors": [],
+  "tasks": [
     {
-      "code": "package-error",
-      "name": "Package Error",
-      "tags": [],
-      "note": "\"'Sifilis' does not match '^([-a-z0-9._/])+$'\" at \"name\" in metadata and at \"properties/name/pattern\" in profile",
-      "message": "The data package has an error: \"'Sifilis' does not match '^([-a-z0-9._/])+$'\" at \"name\" in metadata and at \"properties/name/pattern\" in profile",
-      "description": "A validation cannot be processed."
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_sifilis_adquirida",
+        "path": "data/dados_sifilis_adquirida.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "id_agravo",
+              "type": "string"
+            },
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "nu_ano",
+              "type": "integer"
+            },
+            {
+              "name": "id_municip",
+              "type": "string"
+            },
+            {
+              "name": "id_regiona",
+              "type": "string"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "cs_escol_n",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "id_rg_resi",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "66b5df4fe777e446cc527d884560ab0d",
+          "bytes": 13955976,
+          "fields": 12,
+          "rows": 140497
+        }
+      },
+      "time": 6.262,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_sifilis_congenita",
+        "path": "data/dados_sifilis_congenita.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "id_agravo",
+              "type": "string"
+            },
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "nu_ano",
+              "type": "integer"
+            },
+            {
+              "name": "id_municip",
+              "type": "string"
+            },
+            {
+              "name": "id_regiona",
+              "type": "string"
+            },
+            {
+              "name": "dt_diag",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "id_rg_resi",
+              "type": "string"
+            },
+            {
+              "name": "antsifil_n",
+              "type": "string"
+            },
+            {
+              "name": "tra_esquem",
+              "type": "string"
+            },
+            {
+              "name": "labc_igg",
+              "type": "string"
+            },
+            {
+              "name": "evolucao",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "d110ea3e83ad2377e5f3dbee2f73f8dc",
+          "bytes": 4114380,
+          "fields": 16,
+          "rows": 27610
+        }
+      },
+      "time": 1.583,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_sifilis_gestante",
+        "path": "data/dados_sifilis_gestante.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "id_agravo",
+              "type": "string"
+            },
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "nu_ano",
+              "type": "integer"
+            },
+            {
+              "name": "id_municip",
+              "type": "string"
+            },
+            {
+              "name": "id_regiona",
+              "type": "string"
+            },
+            {
+              "name": "dt_diag",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "cs_escol_n",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "id_rg_resi",
+              "type": "string"
+            },
+            {
+              "name": "tpesquema",
+              "type": "string"
+            },
+            {
+              "name": "tratparc",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "433d6e07cf850ebe0f0b491c7a901038",
+          "bytes": 7407581,
+          "fields": 14,
+          "rows": 49817
+        }
+      },
+      "time": 2.724,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
     }
   ],
-  "tasks": [],
   "stats": {
-    "errors": 1,
-    "tasks": 0
+    "errors": 0,
+    "tasks": 3
   },
-  "valid": false
+  "valid": true
 }
