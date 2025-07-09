@@ -132,7 +132,7 @@ resources:
           type: geopoint
           title: Idade
           description: Idade
-       - name: cs_sexo
+        - name: cs_sexo
           type: string
           title: Sexo
           description: Sexo
@@ -217,7 +217,7 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-         - name: id_agravo
+        - name: id_agravo
           type: string
           title: ID do Agravo
           description: ID do Agravo
@@ -278,7 +278,7 @@ resources:
               - 'Educação superior completa'
               - 'Ignorado'
               - 'Não se aplica'
-       - name: id_municip
+        - name: id_municip
           type: string
           title: Município de Notificação
           description: Município de Notificação
