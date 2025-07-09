@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 11.102,
+  "time": 11.248,
   "errors": [],
   "tasks": [
     {
@@ -124,7 +124,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Dados de Sífilis adquirida",
+        "title": "Dados de Sífilis Adquirida",
         "stats": {
           "hash": "66b5df4fe777e446cc527d884560ab0d",
           "bytes": 13955976,
@@ -132,7 +132,7 @@
           "rows": 140497
         }
       },
-      "time": 6.718,
+      "time": 6.788,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -241,7 +241,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Sífilis Gestante.",
+        "title": "Dados Sífilis Congênita.",
         "stats": {
           "hash": "d110ea3e83ad2377e5f3dbee2f73f8dc",
           "bytes": 4114380,
@@ -249,7 +249,7 @@
           "rows": 27610
         }
       },
-      "time": 1.584,
+      "time": 1.624,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -350,7 +350,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Dados de Sífilis Gestante",
         "stats": {
           "hash": "433d6e07cf850ebe0f0b491c7a901038",
           "bytes": 7407581,
@@ -358,7 +358,7 @@
           "rows": 49817
         }
       },
-      "time": 2.764,
+      "time": 2.799,
       "scope": [
         "hash-count-error",
         "byte-count-error",
