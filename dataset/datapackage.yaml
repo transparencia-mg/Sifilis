@@ -88,7 +88,7 @@ resources:
           title: Regional de Residência
           description: Regional de Residência
     scheme: file
-    title: Dados de Sífilis adquirida
+    title: Dados de Sífilis Adquirida
   - description: Dados de Sífilis Congênita.
     dialect:
       delimiter: ;
@@ -133,7 +133,7 @@ resources:
         - name: evolucao
           type: string
     scheme: file
-    title: Sífilis Gestante.
+    title: Dados Sífilis Congênita.
   - description: Dados de Sífilis Gestante.
     dialect:
       delimiter: ;
@@ -174,5 +174,5 @@ resources:
         - name: tratparc
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Dados de Sífilis Gestante
 title: Dados de Sifilis
