@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 11.402,
+  "time": 11.085,
   "errors": [],
   "tasks": [
     {
@@ -131,7 +131,7 @@
           "rows": 140497
         }
       },
-      "time": 6.921,
+      "time": 6.68,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -174,23 +174,33 @@
           "fields": [
             {
               "name": "id_agravo",
-              "type": "string"
+              "type": "string",
+              "title": "ID do Agravo",
+              "description": "ID do Agravo"
             },
             {
               "name": "dt_notific",
-              "type": "date"
+              "type": "date",
+              "title": "Data de Notificação",
+              "description": "Data de Notificação"
             },
             {
               "name": "nu_ano",
-              "type": "integer"
+              "type": "integer",
+              "title": "Ano de Notificação",
+              "description": "Ano de Notificação"
             },
             {
               "name": "id_municip",
-              "type": "string"
+              "type": "string",
+              "title": "Município de Notificação",
+              "description": "Município de Notificação"
             },
             {
               "name": "id_regiona",
-              "type": "string"
+              "type": "string",
+              "title": "Regional de Notificação",
+              "description": "Regional de Notificação"
             },
             {
               "name": "dt_diag",
@@ -198,19 +208,44 @@
             },
             {
               "name": "dt_nasc",
-              "type": "date"
+              "type": "date",
+              "title": "Data de Nascimento",
+              "description": "Data de Nascimento"
             },
             {
               "name": "nu_idade_n",
-              "type": "geopoint"
+              "type": "geopoint",
+              "title": "Idade",
+              "description": "Idade"
             },
             {
               "name": "cs_sexo",
-              "type": "string"
+              "type": "string",
+              "title": "Sexo",
+              "description": "Sexo",
+              "constraints": {
+                "enum": [
+                  "Feminino",
+                  "Masculino",
+                  "Ignorado"
+                ]
+              }
             },
             {
               "name": "cs_raca",
-              "type": "string"
+              "type": "string",
+              "title": "Raça/Cor",
+              "description": "Raça/Cor",
+              "constraints": {
+                "enum": [
+                  "Branca",
+                  "Preta",
+                  "Amarela",
+                  "Parda",
+                  "Indígena",
+                  "Ignorado"
+                ]
+              }
             },
             {
               "name": "id_mn_resi",
@@ -247,7 +282,7 @@
           "rows": 27610
         }
       },
-      "time": 1.625,
+      "time": 1.618,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -355,7 +390,7 @@
           "rows": 49817
         }
       },
-      "time": 2.818,
+      "time": 2.749,
       "scope": [
         "hash-count-error",
         "byte-count-error",
